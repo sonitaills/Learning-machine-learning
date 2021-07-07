@@ -21,6 +21,8 @@ Lecture 2
 
     Anatomy of Supervised Learning: Learning Algorithms
 
+Lecture 3
+    Optimization and Calculus
 
 ### Supervised Learning
 -------------------------------------------------------------------------------------------------------------------
@@ -53,4 +55,17 @@ Supervised learning consists of 3 components:
   - Optimizer: Finds the best predictive model class, according to the objective function. It will work as choosing the model that will produce, for example, the least value on mean squared error
 
 - **Predictive Model** --> Chosen to model relationship between inputs and targets
+-------------------------------------------------------------------------------------------------------------------
+
+### [Optimization and Calculus (code)]() 
+
+### [Lecture link](https://www.youtube.com/watch?v=E5hU0AesA-I)
+-------------------------------------------------------------------------------------------------------------------
+
+#### Overview
+
+Main goal is to explain how gradient descent optimizer works. Recap on derivatives and some cool functions to plot derivatives graphs
+
+**Used functions:**
+
 
