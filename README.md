@@ -64,7 +64,35 @@ Supervised learning consists of 3 components:
 
 #### Overview
 
-Main goal is to explain how gradient descent optimizer works. Recap on derivatives and some cool functions to plot derivatives graphs
+Main goal is to explain how gradient descent (steepest descent) optimizer works. Recap on derivatives and some cool functions to plot derivatives graphs.
+Step size in gradient descent algorithm dictates how "far down" you want to go. If the step size is too short, more iterations will be needed and optimum solution
+may not be achieved. If it is too high, it might cause an overshoot and as well bot be able to achieve the optimum solution. Solution is reached when the error between the 
+previous step and the new one is lower than a threshold
+
+![image](https://user-images.githubusercontent.com/46113694/125006266-13339180-e034-11eb-8c6b-4db740c968a4.png)
+
+**Used functions:**
+
+### [Gradient Descent (code)]() 
+
+### [Lecture link](https://www.youtube.com/watch?v=B3w5Zzuqi-E&t=2s)
+-------------------------------------------------------------------------------------------------------------------
+
+#### Overview
+Uses UCI diabetes training data from sklearn. From this data a supervised learning model is defined
+
+- Model family: here it will be the linear model. The relationship between the targets and all the inputs is linear
+
+![image](https://user-images.githubusercontent.com/46113694/125005013-1c6f2f00-e031-11eb-96c0-2f96e38a1b40.png)
+
+- Objective function: Mean squared error
+
+- Optimizer: Gradient descent is used. To apply it, it is necessary to know how to differentiate the ojective function!
+
+**Obs: Since linear models can also have a constant, a column consisting of only values 1 is added to data! This will generate an output paramenter that will be a constant when multiplied by the variable matrix**
+
+![image](https://user-images.githubusercontent.com/46113694/125009453-f51d5f80-e03a-11eb-973d-8541fb6dc3bd.png)
+
 
 **Used functions:**
 
