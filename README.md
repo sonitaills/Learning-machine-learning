@@ -57,7 +57,7 @@ Supervised learning consists of 3 components:
 - **Predictive Model** --> Chosen to model relationship between inputs and targets
 -------------------------------------------------------------------------------------------------------------------
 
-### [Optimization and Calculus (code)]() 
+### [Optimization and Calculus (code)](https://github.com/sonitaills/Learning-machine-learning/blob/main/Lecture%203%20-%20part%201%20-%20Optimization%20and%20Calculus.ipynb) 
 
 ### [Lecture link](https://www.youtube.com/watch?v=E5hU0AesA-I)
 -------------------------------------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ previous step and the new one is lower than a threshold
 
 **Used functions:**
 
-### [Gradient Descent (code)]() 
+### [Gradient Descent (code)](https://github.com/sonitaills/Learning-machine-learning/blob/main/Lecture%203%20part%202%20-%20Gradient%20descent.ipynb) 
 
 ### [Lecture link](https://www.youtube.com/watch?v=B3w5Zzuqi-E&t=2s)
 -------------------------------------------------------------------------------------------------------------------
