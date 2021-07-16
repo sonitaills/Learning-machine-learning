@@ -22,7 +22,13 @@ Lecture 2
     Anatomy of Supervised Learning: Learning Algorithms
 
 Lecture 3
+
     Optimization and Calculus
+    
+    Gradient Descent
+    
+    Ordinary Least Squares
+
 
 ### Supervised Learning
 -------------------------------------------------------------------------------------------------------------------
@@ -95,5 +101,33 @@ Uses UCI diabetes training data from sklearn. From this data a supervised learni
 
 
 **Used functions:**
+
+### [Ordinary Least Squares (code)]() 
+
+### [Lecture link](https://www.youtube.com/watch?v=WIbgH6Nc-ac&t=2s)
+-------------------------------------------------------------------------------------------------------------------
+
+#### Overview
+
+- Type: Supervised learning
+- Model family: Linear models
+- Objective function: Mean Squared Error
+- Optmizer: Normal equations
+
+
+To use this approach, the data must be presented in matrix form, knwon as a design matrix, where the lines represent the values of a single variable. 
+
+The objective function used for the algorithm is the Mean Square Error (MSE). First, the function is presented in the matrix form. 
+
+![image](https://user-images.githubusercontent.com/46113694/126000312-23f4672b-3dfe-403a-9098-130ca50865ec.png)
+
+The theta values are the obtained from all the variables in the training data and later used to predict new answers. The MSE gradient can be found with:
+
+![image](https://user-images.githubusercontent.com/46113694/126004014-cbeaf11e-997e-4c4a-8352-6f6d75903ba6.png)
+
+By setting the derivatie of the MSE = 0 the optimum theta value will be achieved, and since the MSE is a quadratic function, it will have only one minimum. Note that for the below equation to work, the matrix XTX has to be invertible (determinant different than 0). Thera are though some ways of contourning this fact.
+
+![image](https://user-images.githubusercontent.com/46113694/126004369-05bceeff-d856-40e1-96db-73f335d22626.png)
+
 
 
