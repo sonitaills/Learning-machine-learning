@@ -102,7 +102,7 @@ Uses UCI diabetes training data from sklearn. From this data a supervised learni
 
 **Used functions:**
 
-### [Ordinary Least Squares (code)]() 
+### [Ordinary Least Squares (code)](https://github.com/sonitaills/Learning-machine-learning/blob/main/Lecture%203%20part%203.pdf) 
 
 ### [Lecture link](https://www.youtube.com/watch?v=WIbgH6Nc-ac&t=2s)
 -------------------------------------------------------------------------------------------------------------------
