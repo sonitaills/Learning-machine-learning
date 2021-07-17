@@ -36,6 +36,8 @@ Lecture 4 - Foundations of Supervised Learning
     The Data Distribution
     
      Why Does Supervised Learning Work?
+     
+     Overfitting and Underfitting
 
 
 ### Supervised Learning
