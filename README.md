@@ -31,6 +31,12 @@ Lecture 3
     
     Non Linear Least Squares
 
+Lecture 4 - Foundations of Supervised Learning
+
+    The Data Distribution
+    
+     Why Does Supervised Learning Work?
+
 
 ### Supervised Learning
 -------------------------------------------------------------------------------------------------------------------
@@ -153,3 +159,46 @@ If your parameters theta are linear, it is possible to apply a non linear design
 - matplotlib subplot
 - np.cos, np.sin
 
+### [The data distribution (code)](https://github.com/sonitaills/Learning-machine-learning/blob/main/Lecture%203%20part%204.pdf) 
+
+### [Lecture link](https://www.youtube.com/watch?v=eu2NKLVCJNA&list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83&index=12)
+-------------------------------------------------------------------------------------------------------------------
+
+#### Overview
+
+In order to apply supervised learning, we need the training dataset, the learning algotithm and then it is possible to find a predictive model. Where does the dataset come from?
+
+Tipically the data is assumed to come from a probabilty distribution, called the data distribution. The training set is assumed to consist of **independet and identicaly distributed (IID)** samples from original distribution. When this assumption is met, it can be used to prove the algotithm will work in certain cases. If not met, it provides intuition on why some algorithms may not work.
+
+    - Each training example iss from the same distribution
+   
+    -This distribution doesn't depend on previous training examples
+    
+**Example** --> Flipping a coin doesn't depend on previous results
+
+**Counter-example** --> Yearly census data. The population in each year will be close to that of the previous year. This example violates the "independent" assumption
+
+Why assume that the dateset is sampled from a distribution? 
+    
+    -There is inherent uncertainty in the data, which may consists of noisy measurements (reading from imperfect equipment). 
+    - Uncertainty in the process being modeled. There is randomness in stock prices which can't be modeled
+    - Usage of probability and statistics to analyse Supervide learning algorithms to prove they do or don't work
+    
+### [ Why Does Supervised Learning Work? (code)]() 
+
+### [Lecture link](https://www.youtube.com/watch?v=eu2NKLVCJNA&list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83&index=13)
+------------------------------#### Overview-------------------------------------------------------------------------------------
+
+#### Overview
+
+A **good** model is one that makes accurate predictions on new data that it **has not seen at training time**. This is really important to remember! **DO NOT TEST THE MODEL ON THE TRAINING DATA**. 
+
+For testing purposes, get some other samples from the data, unseen during the training part, and test the model versus the correct values. This new sample is called **hold-out** data.
+
+![image](https://user-images.githubusercontent.com/46113694/126047865-56fab0ae-3a18-4ed4-893e-76a7d1c5bc97.png)
+
+A supervised learning is **accurate** if  it predicts correctly the target on the new (hold-out) data, e.g if the probability of making an error on a random holdout sample is small
+
+![image](https://user-images.githubusercontent.com/46113694/126047987-9300d53f-94fe-4a79-9caa-333d7185f14c.png)
+
+**Generalization** is the property of predictive models to achiee good performance on new heldout data, distinct from the training set. In order for it to work, you must have enough data!
