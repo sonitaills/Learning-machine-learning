@@ -149,7 +149,7 @@ If your parameters theta are linear, it is possible to apply a non linear design
 ![image](https://user-images.githubusercontent.com/46113694/126046343-7b0d52cb-4638-428b-888d-5ba093e6ebe4.png)
 
 
-**Used functions:**
-- matplotlib suplot
-- 
+**New used functions:**
+- matplotlib subplot
+- np.cos, np.sin
 
