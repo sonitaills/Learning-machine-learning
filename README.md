@@ -28,6 +28,8 @@ Lecture 3
     Gradient Descent
     
     Ordinary Least Squares
+    
+    Non Linear Least Squares
 
 
 ### Supervised Learning
@@ -129,5 +131,25 @@ By setting the derivatie of the MSE = 0 the optimum theta value will be achieved
 
 ![image](https://user-images.githubusercontent.com/46113694/126004369-05bceeff-d856-40e1-96db-73f335d22626.png)
 
+### [Non-Linear Least Squares (code)](https://github.com/sonitaills/Learning-machine-learning/blob/main/Lecture%203%20part%204.pdf) 
 
+### [Lecture link](https://www.youtube.com/watch?v=aJzZmo9-cFk&list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83&index=11)
+-------------------------------------------------------------------------------------------------------------------
+
+#### Overview
+
+- Type: Supervised learning (regression)
+- Model family: Linear models
+- Features: Non-linear functions of the attributes
+- Objective function: Mean Squared Error
+- Optmizer: Normal equations
+
+If your parameters theta are linear, it is possible to apply a non linear design matrix and use the ORDINARY LEAST SQUARE approach. These non-linear features can be of any kind. There is an endless range of functions that can be designes this way.
+
+![image](https://user-images.githubusercontent.com/46113694/126046343-7b0d52cb-4638-428b-888d-5ba093e6ebe4.png)
+
+
+**Used functions:**
+- matplotlib suplot
+- 
 
